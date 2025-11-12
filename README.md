@@ -22,9 +22,11 @@ Much of the data comes from the Kaggle BirdClef competitions.
 - [BirdCLEF 2022](https://www.kaggle.com/competitions/birdclef-2022)
 - [BirdCLEF 2021](https://www.kaggle.com/competitions/birdclef-2021)
 
+---
+
 I also included acoustics data that are not bird sounds from the following:
 - Different colored noise from [starter-code/sim-color-noise.ipynb](starter-code/sim-color-noise.ipynb)
-- The Urban8K data [here](https://urbansounddataset.weebly.com/urbansound8k.html)
+- The first fold of Urban8K data [here](https://urbansounddataset.weebly.com/urbansound8k.html)
 - Rain sounds from the DBR dataset at the Freesound repos [here](https://labs.freesound.org/datasets/)
 
 I processed the data to include the acoustics of 10 species. More details:
@@ -38,6 +40,14 @@ The folder `birds` has common names and labels for abbreviated bird names and so
 ## Installation
 
 
+
+## Getting Started
+
+1. Fork the repo, clone it, and set up an appropriate Python environment for AI tasks
+2. Download and unzip the competition data.
+3. Execute the terminal commands to run `tensorize-birds.ipynb` and `tensorize-no-bird.ipynb`, which prepares the data for machine learning. See the next section.
+4. Fit models. See the next section.
+5. Test against `data/test` (only 1 bird species in each clip) or `data/soundscapes` (multiple bird species in clips).
 
 ## Starter code
 
@@ -56,12 +66,10 @@ Do not name `path/to/run/notebook` the same as the notebook, lest you overwrite 
 The `audiomentations.json` file has example parameters for data augmentation of the audio files. This will measurably increase your runtime and memory usage if `num_audiomentations > 0`. You can read more about the [audiomentations](https://iver56.github.io/audiomentations/) package. I appended the suffix of the method, like `Gain()` becomes `_gain`, in defining the parameters in the notebook.
 
 
-
 The following files provide examples for fitting different models:
-- [starter-code/random_forest.ipynb](starter-code/random_forest.ipynb)
-- [starter-code/gradient_boosting_trees.ipynb](starter-code/gradient_boosting_trees.ipynb)
-- [starter-code/xgboost.ipynb](starter-code/xgboost.ipynb)
+- [starter-code/tree_models_from_pretrained_embeddings.ipynb](starter-code/tree_models_from_pretrained_embeddings.ipynb)
+- [starter-code/lora_from_pretrained_model.ipynb](starter-code/lora_from_pretrained_model.ipynb)
 - [starter-code/convolutional_neural_network.ipynb](starter-code/convolutional_neural_network.ipynb)
-- [starter-code/convolutional_recurrent_neural_network.ipynb](starter-code/convolutional_recurrent_neural_network.ipynb)
 - [starter-code/vision_transformer.ipynb](starter-code/vision_transformer.ipynb)
-- [starter-code/pretrained_model.ipynb](starter-code/pretrained_model.ipynb)
+- [starter-code/convolutional_recurrent_neural_network.ipynb](starter-code/convolutional_recurrent_neural_network.ipynb)
+- [starter-code/state-space-model.ipynb](starter-code/state-space-model.ipynb)
