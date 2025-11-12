@@ -1,0 +1,18 @@
+{
+    "num_audiomentations": 0,
+    "min_amplitude_gaussian": 0.001,
+    "max_amplitude_gaussian": 0.015,
+    "p_gaussian": 0.5,
+    "min_rate_timestretch": 0.8,
+    "max_rate_timestretch": 1.25,
+    "p_timestretch": 0.5,
+    "min_semitones_pitchshift": -4,
+    "max_semitones_pitchshift": 4,
+    "p_pitchshift": 0.5,
+    "min_shift_shift": -0.5,
+    "max_shift_shift": 0.5,
+    "p_shift": 0.5,
+    "min_gain_db_gain": -6.0,
+    "max_gain_db_gain": 6.0,
+    "p_gain": 0.5
+}

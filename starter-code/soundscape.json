@@ -1,0 +1,10 @@
+{
+    "num_sims": 10,
+    "num_time_steps": 24,
+    "num_agents": 20,
+    "num_seconds": 5,
+    "step_std": 0.1,
+    "inner_circle_radius": 0.2,
+    "sample_rate": 32000,
+    "folder_with_birds": "data/train"
+}
