@@ -11,6 +11,10 @@ Advertisement for event: Making your first neural network can be intimidating, a
 
 ## The data
 
+You can see an example of what raw univariate audio and a spectrogram look like in a [Xenocanto recording](https://xeno-canto.org/412450).
+
+Those with at umich dot edu emails can view the hack-a-thon files [here](https://drive.google.com/drive/folders/1N5SpfOMnYQjVGgKJlpowfEcYMGJF404D?usp=sharing).
+
 Much of the data comes from the Kaggle BirdClef competitions.
 - [BirdCLEF 2025](https://www.kaggle.com/competitions/birdclef-2025)
 - [BirdCLEF 2024](https://www.kaggle.com/competitions/birdclef-2024)
