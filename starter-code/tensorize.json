@@ -5,5 +5,6 @@
     "fmin": 0.0,
     "fmax": 1.6e4,
     "n_fft": 1024,
-    "hop_length": 512
+    "hop_length": 512,
+    "suffix": ""
 }

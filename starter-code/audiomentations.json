@@ -1,5 +1,6 @@
 {
     "num_audiomentations": 0,
+    "on_chunk": true,
     "min_amplitude_gaussian": 0.001,
     "max_amplitude_gaussian": 0.015,
     "p_gaussian": 0.5,
