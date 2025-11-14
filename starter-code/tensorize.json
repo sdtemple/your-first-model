@@ -1,5 +1,6 @@
 {
     "num_seconds": 5.0,
+    "num_birds": 10,
     "n_mels": 128,
     "sr_all": 3.2e4,
     "fmin": 0.0,
