@@ -1,0 +1,27 @@
+name: /nfs/turbo/umor-sethtem/hoodriver
+channels:
+  - conda-forge
+dependencies:
+  - python[version='>=3.12']
+  - pip
+  - jupyter
+  - notebook
+  - numpy==2.1.3
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - matplotlib
+  - statsmodels
+  - papermill
+  - librosa
+  - audiomentations
+  - pyyaml
+  - soundfile
+  - pytorch::pytorch
+  - pytorch::pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - timm
+  - transformers
+prefix: /nfs/turbo/umor-sethtem/hoodriver
