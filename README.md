@@ -73,5 +73,3 @@ The following files provide examples for fitting different models:
 - [starter-code/vision_transformer_v2.ipynb](starter-code/vision_transformer_v2.ipynb)
 <!-- - [starter-code/convolutional_recurrent_neural_network.ipynb](starter-code/convolutional_recurrent_neural_network.ipynb) -->
 <!-- - [starter-code/state-space-model.ipynb](starter-code/state-space-model.ipynb) -->
-
-<!-- test -->
